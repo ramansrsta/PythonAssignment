@@ -1,0 +1,5 @@
+tupl = ('i','n','s','i','g','h','t')
+tupleToList = list(tupl)
+tupleToList.remove('t')
+listToTuple = tuple(tupleToList)
+print(listToTuple)
